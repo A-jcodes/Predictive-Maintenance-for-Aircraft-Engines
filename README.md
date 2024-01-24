@@ -5,6 +5,25 @@
 **Situation:**
 Aircraft engine maintenance is a critical aspect of aviation operations, playing a vital role in ensuring the safety, reliability, and efficiency of air travel. The maintenance of aircraft engines is a complex and highly regulated process that involves various preventive and corrective measures to keep engines in optimal working condition. 
 
+**Data Dictionary:**
+1. Engine_ID (Unique identifier for each aircraft engine)
+Type: Integer
+2. Timestamp (Date and time when the data was recorded)
+Type: Datetime
+3. Temperature (Temperature of the aircraft engine in degrees Celsius)
+Type: Float
+4. Pressure (Pressure of the aircraft engine in units relevant to the dataset)
+Type: Float
+5. Rotational_Speed (Rotational speed of the aircraft engine in revolutions per minute (RPM))
+Type: Float
+6. Engine_Health (A measure of the overall health of the aircraft engine, ranging from 0 to 1)
+Type: Float
+7. Engine_Failure (Binary indicator of engine failure)
+0: No engine failure
+1: Engine failure
+Type: Integer (Binary)
+
+
 
 **Task:**
 1. To conduct a comprehensive Exploratory Data Analysis (EDA) and data analysis tasks on an aircraft engine maintenance dataset representing different aircraft engine health and operational parameters.
